@@ -57,3 +57,17 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+
+dependencies {
+    implementation("androidx.navigation:navigation-compose:2.7.5") // Ensure latest version
+    implementation("io.coil-kt:coil-compose:2.3.0")
+}
+dependencies {
+    implementation("androidx.compose.material:material-icons-extended:1.0.0")
+}
+dependencies {
+    implementation(libs.androidx.navigation.runtime.android)
+    implementation ("androidx.compose.ui:ui:1.4.0") // Use the latest stable version
+    implementation ("androidx.compose.material3:material3:1.0.0") // For Material3 components
+
+}
